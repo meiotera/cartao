@@ -1,0 +1,70 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+
+body {
+      max-width: 1440px;
+      margin: 0 auto;
+      background-color: #ccc;
+}
+main {
+      width:100% ;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.cartao{
+      width: 400px;
+      height: 270px;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.527);
+      border-left: 3px solid rgba(58, 58, 58, 0.527);
+      border-radius: 10px;
+      text-align: center;
+      background-color: rgb(255, 145, 163);
+      /*background-image: linear-gradient(to left,rgba(255, 255, 255, 0.521),rgba(255, 143, 221, 0.425));*/
+     transform: rotate3d(2,1,1.4,-50deg);
+      
+}
+.preto {
+      background-color: rgb(0, 0, 0);
+      border-bottom: 3px solid rgba(235, 235, 235, 0.527);
+      border-left: 3px solid rgba(255, 255, 255, 0.527);
+}
+.topo {
+      width: 100%;
+      height: 120px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.circulo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid;
+      border: groove pink;
+}
+.um {
+     transform: translateX(15px); 
+     
+}
+.bandeira {
+      display: flex;
+}
+.chip {
+      width: 70px;
+      height: 50px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #ccc;
+}
+.numero_cartao {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
